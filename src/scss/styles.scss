@@ -1,0 +1,23 @@
+@import "bootstrap/variables";
+@import "bootstrap/mixins/clearfix";
+@import "bootstrap/mixins/grid-framework";
+@import "bootstrap/mixins/grid";
+
+
+body{
+	@include container-fixed;
+}
+
+#thumb-list{
+	@include container-fixed;
+	@include make-row;
+}
+
+#thumb-list  > article{
+	$margin: 30px;
+	@include make-sm-column(6, $margin);
+	@include make-md-column(4, $margin);
+	@include make-lg-column(3, $margin);
+	margin-bottom: $margin;
+}
+
