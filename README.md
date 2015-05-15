@@ -22,7 +22,7 @@ See the [complete list of grid mixins here](https://github.com/twbs/bootstrap-sa
     @include clearfix;
   }
 ```
-####How to use:
+#####How to use:
 ```css
   section{
     @include container-fixed;
@@ -38,7 +38,7 @@ See the [complete list of grid mixins here](https://github.com/twbs/bootstrap-sa
     @include clearfix;
   }
 ```
-####How to use:
+#####How to use:
 ```css
   section > .list{
     @include make-row;
@@ -60,7 +60,7 @@ See the [complete list of grid mixins here](https://github.com/twbs/bootstrap-sa
     }
   }
 ```
-####How to use:
+#####How to use:
 This will render 3 columns (of 4 grid columns each, 4*3=12).
 ```css
 section .list article{
