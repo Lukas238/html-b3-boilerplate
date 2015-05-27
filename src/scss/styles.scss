@@ -10,14 +10,29 @@ body{
 
 #thumb-list{
 	@include container-fixed;
+}
+
+#thumb-list .box{
 	@include make-row;
 }
 
-#thumb-list  > article{
-	$margin: 30px;
-	@include make-sm-column(6, $margin);
+#thumb-list   article{
+	$margin: 5px;
+	@include make-sm-column(4,$margin);
 	@include make-md-column(4, $margin);
 	@include make-lg-column(3, $margin);
 	margin-bottom: $margin;
+}
+
+#header,
+#main,
+#footer{
+	
+	
+	.wrapper{
+		width: 960px;
+		margin: 0 auto;
+	}
+	
 }
 
